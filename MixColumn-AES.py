@@ -1,3 +1,5 @@
+
+
 valsList = [] # List of values
 
 def mixColumns(val1, val2, val3, val4): # MixColumns
@@ -22,7 +24,7 @@ def printHex(val):
     valsList.append(val) # Append val to valsList
     return print('{:02x}'.format(val), end=' ') # Print val in hex
 
-# example from question
+# plug in hex values from question
 mixColumns(0x64, 0xc8, 0x96, 0xfa) # 0x19 0x85 0x91 0x02 = 35 a2 a3 3b
 
 print("\n")
